@@ -79,9 +79,9 @@ var productList = []*Product{
 		UpdatedOn:   time.Now().UTC().String(),
 	},
 	&Product{
-		ID:          1,
+		ID:          2,
 		Name:        "Espresso",
-		Description: "Short and strog coddee without milk",
+		Description: "Short and strog coffee without milk",
 		Price:       1.99,
 		SKU:         "fjd34",
 		CreatedOn:   time.Now().UTC().String(),
