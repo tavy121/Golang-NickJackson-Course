@@ -9,7 +9,7 @@ definitions:
         type: string
         x-go-name: Message
     type: object
-    x-go-package: _/home/tavi/Go_Microservices/handlers
+    x-go-package: github.com/tavy121/Go_Microservices/tree/master/product-api/handlers
   Product:
     description: Product defines the structure for an API product
     properties:
@@ -45,7 +45,7 @@ definitions:
     - price
     - sku
     type: object
-    x-go-package: _/home/tavi/Go_Microservices/data
+    x-go-package: github.com/tavy121/Go_Microservices/tree/master/product-api/data
   ValidationError:
     description: ValidationError is a collection of validation error messages
     properties:
@@ -55,7 +55,7 @@ definitions:
         type: array
         x-go-name: Messages
     type: object
-    x-go-package: _/home/tavi/Go_Microservices/handlers
+    x-go-package: github.com/tavy121/Go_Microservices/tree/master/product-api/handlers
 info:
   description: Documentation for Product API
   title: of Product API
