@@ -15,7 +15,7 @@
 // swagger:meta
 package handlers
 
-import "github.com/tavy121/Go_Microservices/tree/master/product-api/data"
+import "github.com/tavy121/Go_Microservices/product-api/data"
 
 //
 // NOTE: Types defined here are purely for documentation purposes

@@ -3,7 +3,7 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/tavy121/Go_Microservices/tree/master/product-api/data"
+	"github.com/tavy121/Go_Microservices/product-api/data"
 )
 
 // swagger:route POST /products products createProduct
